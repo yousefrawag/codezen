@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import Coustomheader from '../../../coustom_header/Coustomheader.jsx'
 const Projects = () => {
 
-
   const { t } = useTranslation()
   const data = t('Projects', { returnObjects: true })
 
