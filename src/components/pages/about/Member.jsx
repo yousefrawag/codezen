@@ -17,37 +17,41 @@ const Member = () => {
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}
   >
-    <SwiperSlide>
-    <div class="card">
-    <p class="c-txt">Hover Me</p>
-  </div>
-    </SwiperSlide>
-    <SwiperSlide>
-    <article class="card">
-    <div class="temporary_text">
-        Place image here
+  <SwiperSlide>
+      <div class="card">
+
+      <div class="card-info">
+              <p class="title">Magic Card</p>
+      </div>
+
     </div>
-<div class="card_content">
-    <span class="card_title">This is a Title</span>
-        <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
-        <p class="card_description">Lorem ipsum dolor, sit amet  expedita exercitationem recusandae aut dolor tempora aperiam itaque possimus at, cupiditate earum, quae repudiandae aspernatur? Labore minus soluta consequatur placeat.</p>
-    
-</div>
-</article>
+</SwiperSlide>
+    <SwiperSlide>
+          <div class="card">
+
+          <div class="card-info">
+                  <p class="title">Magic Card</p>
+          </div>
+
+          </div>
     </SwiperSlide>
-      <SwiperSlide>
-        <div class="card">
+    <SwiperSlide>
+          <div class="card">
 
-        <h2>CARD</h2>
-        
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div class="card">
+          <div class="card-info">
+                  <p class="title">Magic Card</p>
+          </div>
 
-        <h2>CARD</h2>
-        
         </div>
+</SwiperSlide>
+    <SwiperSlide>
+          <div class="card">
+
+          <div class="card-info">
+                  <p class="title">Magic Card</p>
+          </div>
+
+          </div>
     </SwiperSlide>
 
   </Swiper>

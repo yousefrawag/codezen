@@ -417,6 +417,61 @@
         }
         
         }
+      ],
+      "provile_text" :"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+      "provile_header" :"codezen staff",
+      "provile_header_text" :"a team of expats in everything you need",
+      "team_staff" :[
+        {
+          "name":"mohamed kamel",
+          "jop_type" : "frontend developer",
+          "image":"../../../images/img-pro-1.png",
+          "description" :"mohamed kamel have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
+          "technologies":["html5" , "css3" , "javascript" , "react " , "react_query" , "jeQuery" , "Tailwind css" , "bootstrap" , "fairebase"],
+          "project_complate" :"20",
+          "experince" :"3 years"
+          
+        },
+        {
+          "name":"yousef rawag",
+          "jop_type" : "frontend developer",
+          "image":"../../../images/img-pro-2.png",
+          "description" :"youse rawag have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
+          "technologies":["html5" , "css3" , "javascript" , "react " , "react_query" , "jeQuery" , "Tailwind css" , "bootstrap" , "fairebase"],
+          "project_complate" :"20",
+          "experince" :"3 years"
+          
+        },
+        {
+          "name":"yousef essam",
+          "jop_type" : "Graphic design",
+          "image":"../../../images/img-pro-2.png",
+          "description" :"yousef essam have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
+          "technologies":["fagma" , "pohatosop" , "logo design" , "socail medai desiagn " , "edit images "],
+          "project_complate" :"15",
+          "experince" :"2 years"
+          
+        },
+        {
+          "name":"omare ahmed",
+          "jop_type" : "back-end developer",
+          "image":"../../../images/img-pro-2.png",
+          "description" :"omare ahmed have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
+          "technologies":["php" , "Node.js" , "sql" , "dtabase mangment " , "laravel " , "expresses.js"],
+          "project_complate" :"15",
+          "experince" :"2 years"
+          
+        },
+        {
+          "name":"hager ahmed",
+          "jop_type" : "marketing",
+          "image":"../../../images/img-pro-2.png",
+          "description" :"hager ahmed have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
+          "technologies":["facebook ads" , "instgram ads" , "sanpshite ads" , "google ads" ],
+          "project_complate" :"15",
+          "experince" :"2 years"
+          
+        }
       ]
 
 
