@@ -423,9 +423,11 @@
       "provile_header_text" :"a team of expats in everything you need",
       "team_staff" :[
         {
+          "id" : "01",
           "name":"mohamed kamel",
           "jop_type" : "frontend developer",
-          "image":"../../../images/img-pro-1.png",
+          "subtitle" :"Developed web frontends and maintains and improves websites and interfaces to suit different devices",
+          "image":"../../../images/img-pro-2.png",
           "description" :"mohamed kamel have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
           "technologies":["html5" , "css3" , "javascript" , "react " , "react_query" , "jeQuery" , "Tailwind css" , "bootstrap" , "fairebase"],
           "project_complate" :"20",
@@ -433,9 +435,11 @@
           
         },
         {
+          "id" : "02",
           "name":"yousef rawag",
           "jop_type" : "frontend developer",
-          "image":"../../../images/img-pro-2.png",
+          "subtitle" :"Developed web frontends and maintains and improves websites and interfaces to suit different devices",
+          "image":"../../../images/img-pro-1.png",
           "description" :"youse rawag have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
           "technologies":["html5" , "css3" , "javascript" , "react " , "react_query" , "jeQuery" , "Tailwind css" , "bootstrap" , "fairebase"],
           "project_complate" :"20",
@@ -443,9 +447,23 @@
           
         },
         {
+          "id" : "06",
+          "name":"wale kamel",
+          "jop_type" : "team leader",
+          "subtitle":"Team Founder, SEO Team Leader and Brand Builder && is a professional SEO expert with vast experience",
+          "image":"../../../images/img-pro-3.png",
+          "description": "Wale Kamel (the founder) is a professional SEO expert with vast experience in search engine management and e-marketing. He has successfully developed and created many brands in Egypt and abroad. wale kamel has extensive skills and experience in search engine optimization, which qualifies him to help you climb to the first page's top results with a clear and organized plan. He can help with website management, competitor analysis, preparing integrated marketing plans, and developing necessary strategies for the success of your brand. Ahmed Nofal's skills also include great experience in many programming languages, which enables him to perform his mission with distinction and success.",
+          "technologies":["php" , "Node.js" , "sql" , "dtabase mangment ", "c++" , "c#" , "laravel " , "expresses.js"],
+          "project_complate" :"15",
+          "experince" :"2 years"
+          
+        },
+        {
+          "id" : "03",
           "name":"yousef essam",
-          "jop_type" : "Graphic design",
-          "image":"../../../images/img-pro-2.png",
+          "jop_type" : "Graphic designer",
+          "subtitle" :"Graphic designer specializing in social media, print and visual identity designs && publications for the graphic",
+          "image":"../../../images/img-pro-4.png",
           "description" :"yousef essam have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
           "technologies":["fagma" , "pohatosop" , "logo design" , "socail medai desiagn " , "edit images "],
           "project_complate" :"15",
@@ -453,9 +471,11 @@
           
         },
         {
+          "id" : "04",
           "name":"omare ahmed",
           "jop_type" : "back-end developer",
-          "image":"../../../images/img-pro-2.png",
+          "subtitle":"Senior software engineer specialized in creating and programming website && and specialized in managing vps ",
+          "image":"../../../images/img-pro-3.png",
           "description" :"omare ahmed have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
           "technologies":["php" , "Node.js" , "sql" , "dtabase mangment " , "laravel " , "expresses.js"],
           "project_complate" :"15",
@@ -463,10 +483,12 @@
           
         },
         {
+          "id" : "05",
           "name":"hager ahmed",
           "jop_type" : "marketing",
-          "image":"../../../images/img-pro-2.png",
-          "description" :"hager ahmed have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
+          "image":"../../../images/reduce.png",
+          "subtitle":"A member of the marketing team at Nofal Seo, who is responsible for communicating ",
+          "description" :"hager ahmed A member of the marketing team at Nofal Seo, who is responsible for communicating experince with work in big projects with and comportable with working api and bakend",
           "technologies":["facebook ads" , "instgram ads" , "sanpshite ads" , "google ads" ],
           "project_complate" :"15",
           "experince" :"2 years"

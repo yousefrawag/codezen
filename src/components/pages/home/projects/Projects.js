@@ -31,13 +31,13 @@ const Projects = () => {
                 //   </div>
                 // </div>
                 <div className="col-4" key={item.id}>
-                      <article class="card">
-                            <div class="temporary_image">
+                      <article className="card">
+                            <div className="temporary_image">
                                   <img className='img' src={item.bage.imgUrl} alt={item.bage.title} />
                             </div>
-                            <div class="card_content">
-                                <span class="card_title">{item.bage.title}</span>
-                                    <span class="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+                            <div className="card_content">
+                                <span className="card_title">{item.bage.title}</span>
+                                    <span className="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
                                     <Link className = "link_to" to={`/SingleProduct/${item.id}`}>See more</Link>
                    
                             </div>

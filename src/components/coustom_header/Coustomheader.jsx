@@ -3,12 +3,15 @@ import './coustom.scss'
 const Coustomheader = (props) => {
     const {title} = props
   return (
+    <React.Fragment>
     <h3 className='coustom_headr'>
       {
         title
       }
-      <span className='span'></span>
+     
     </h3>
+    <span className='span'></span>
+    </React.Fragment>
   )
 }
 
