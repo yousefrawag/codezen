@@ -32,7 +32,6 @@ const Member = () => {
                 }
         </p>
     </div>
-
     <Swiper
     modules={[Navigation, Pagination, Scrollbar, A11y , Autoplay]}
     spaceBetween={50}
