@@ -8,6 +8,7 @@ import OurWork from './components/pages/ourWork/Our-Work';
 import Contact from './components/pages/contact/Contact';
 import './App.scss';
 import SingleProduct from "./components/pages/singleProduct/SingleProduct";
+import Sainglemember from "./components/pages/Sainglemember/Sainglemember";
 
 const App = () => {
 
@@ -35,6 +36,7 @@ const App = () => {
             <Route path="our-work" element={<OurWork />} />
             <Route path="contact" element={<Contact />} />
             <Route path="SingleProduct/:id" element={<SingleProduct />} />
+            <Route path="Sainglemember/:id" element={<Sainglemember />} />
           </Route>
         </Routes>
       </BrowserRouter>

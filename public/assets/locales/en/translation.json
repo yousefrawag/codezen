@@ -426,9 +426,9 @@
           "id" : "01",
           "name":"mohamed kamel",
           "jop_type" : "frontend developer",
-          "subtitle" :"Developed web frontends and maintains and improves websites and interfaces to suit different devices",
+          "subtitle":"Developed web frontends and maintains and improves websites and interfaces to suit different devices",
+          "description" :" Mohame Kamel A Web Front-End Developer is responsible for using their knowledge of programming languages such as HTML, CSS, and JavaScript to create user-friendly web pages and interfaces. They develop the visual elements and clickable buttons that make up the user-side applications and sites that people interact with on the web. They work closely with clients to determine their needs and ensure that the websites and web applications they create are optimized for desktop and mobile devices. The Web Front-End Developer is also responsible for maintaining and improving websites and interfaces to ensure that they continue to meet the evolving needs of users.",
           "image":"../../../images/img-pro-2.png",
-          "description" :"mohamed kamel have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
           "technologies":["html5" , "css3" , "javascript" , "react " , "react_query" , "jeQuery" , "Tailwind css" , "bootstrap" , "fairebase"],
           "project_complate" :"20",
           "experince" :"3 years"
@@ -437,10 +437,10 @@
         {
           "id" : "02",
           "name":"yousef rawag",
-          "jop_type" : "frontend developer",
           "subtitle" :"Developed web frontends and maintains and improves websites and interfaces to suit different devices",
+          "jop_type" : "frontend developer",
+          "description" :"Youse Rawag A Web Front-End Developer is responsible for using their knowledge of programming languages such as HTML, CSS, and JavaScript to create user-friendly web pages and interfaces. They develop the visual elements and clickable buttons that make up the user-side applications and sites that people interact with on the web. They work closely with clients to determine their needs and ensure that the websites and web applications they create are optimized for desktop and mobile devices. The Web Front-End Developer is also responsible for maintaining and improving websites and interfaces to ensure that they continue to meet the evolving needs of users.",
           "image":"../../../images/img-pro-1.png",
-          "description" :"youse rawag have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
           "technologies":["html5" , "css3" , "javascript" , "react " , "react_query" , "jeQuery" , "Tailwind css" , "bootstrap" , "fairebase"],
           "project_complate" :"20",
           "experince" :"3 years"
@@ -476,7 +476,7 @@
           "jop_type" : "back-end developer",
           "subtitle":"Senior software engineer specialized in creating and programming website && and specialized in managing vps ",
           "image":"../../../images/img-pro-3.png",
-          "description" :"omare ahmed have experince to convert any design to website and  work in big projects with react framework experince with work in big projects with and comportable with working api and bakend",
+          "description" : "A Web Back-End Developer is responsible for using their knowledge of programming languages such as HTML, CSS, and JavaScript to create user-friendly web pages and interfaces. They develop the visual elements and clickable buttons that make up the user-side applications and sites that people interact with on the web. They work closely with clients to determine their needs and ensure that the websites and web applications they create are optimized for desktop and mobile devices. The Web Front-End Developer is also responsible for maintaining and improving websites and interfaces to ensure that they continue to meet the evolving needs of users.",
           "technologies":["php" , "Node.js" , "sql" , "dtabase mangment " , "laravel " , "expresses.js"],
           "project_complate" :"15",
           "experince" :"2 years"

@@ -8,15 +8,15 @@ import 'swiper/css/navigation';
 import 'swiper/scss/pagination';
 import 'swiper/scss/scrollbar';
 
-import { Navigation, Pagination, Scrollbar, A11y , Autoplay } from 'swiper'
+import { Navigation,  A11y , Autoplay } from 'swiper'
 import Coustomheader from '../../coustom_header/Coustomheader'
 
-
+ 
 const Member = () => {
   
-
-   const {t} =useTranslation();
-   const teamData = t("team_staff" , {returnObjects: true})  
+  const {t} =useTranslation();
+  const teamData = t("team_staff" , {returnObjects: true})
+   
   
   
   return (
@@ -32,12 +32,10 @@ const Member = () => {
         </p>
     </div>
     <Swiper
-    modules={[Navigation, Pagination, Scrollbar, A11y , Autoplay]}
+    modules={[Navigation,  A11y , Autoplay]}
     spaceBetween={50}
     slidesPerView={3}
-    navigation
     pagination={{ clickable: true }}
-    scrollbar={{ draggable: true }}
     onSwiper={(swiper) => console.log(swiper)}
     onSlideChange={() => console.log('slide change')}
     autoplay={{ delay: 5000,disableOnInteraction: true }}
@@ -70,7 +68,7 @@ const Member = () => {
                   <p>{Member.jop_type}</p>
                   <p className='subtitle'>{Member.subtitle}</p>
                   <hr className='hr' />
-                  <Link className="link_to_member" to={`/SingleProduct ${Member.id}`}>show profile</Link>
+                  <Link className="link_to_member" to={`/Sainglemember/${Member.name}`}>show profile</Link>
                 </div>
                 <div className="blob"></div>
               </div>
