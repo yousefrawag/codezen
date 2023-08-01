@@ -6,7 +6,7 @@ import { useGlobalContext } from "../../context/context";
 
 const OurWork = () => {
   const [grid, setGrid] = useState(3);
-  const {unique_Data , FilterateItems ,catgery_active} = useGlobalContext()
+  const {unique_Data , FilterateItems ,catgery_active , myData} = useGlobalContext()
   return (
     <React.Fragment>
     <BreadCrumb title="our work"/>
@@ -27,16 +27,17 @@ const OurWork = () => {
                 
                 </div>
                 <div className="sort-img-ch">
-                  <p>length of projects</p>
+                  <p>
+                     <span className="project_lenght">
+                       
+                        ( {
+                          myData.length 
+                        })
+                     </span>
+                      projects complated
+                  </p>
                   <div className="sort-img-part">
-                    <img
-                      className={grid === 3 ? "active" : " "}
-                      onClick={() => {
-                        setGrid(3);
-                      }}
-                      src="images/gr4.svg"
-                      alt="sort"
-                    />
+                 
                     <img
                       className={grid === 4 ? "active" : " "}
                       onClick={() => {

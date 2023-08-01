@@ -3,6 +3,11 @@
 .our-work-wrapper {
     padding: $padding_80;
     background-color: $color_5;
+    .project_lenght{
+      font-size: 14px;
+      color:$color_1 ;
+      margin-right: 4px;
+    }
     .filter-sort-grid {
         display: flex;
         align-items: center;

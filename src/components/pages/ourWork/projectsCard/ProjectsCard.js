@@ -12,57 +12,78 @@ const ProjectsCard = (props) => {
   const location = useLocation();
 
   return (
-    <React.Fragment>
+    <>
 
-    {myData.map((items) => {
+    {myData.map((item) => {
         return (
-            <div key={items.id}
-            className={`${
+          //   <div key={items.id}
+          //   className={`${
+          //     location.pathname === "/our-work"
+          //       ? `col-${grid} col-${grid}-grider`
+          //       : "col-3"
+          //   }`}
+          // >
+          
+          //     <div className="project-card">
+          //       <div className="project-img">
+          //         <img
+          //           className="img-fluid"
+          //           src={items.bage.imgUrl} alt={items.bage.title}
+          //         />
+          //       </div>
+          //       <div className="project-info">
+          //         <span className="project-name"> project name {/* {items.bage.name} */} </span>
+          //         <h4 className="project-title">
+          //         {items.bage.title}
+          //         </h4>
+          //         <div className="project-starts">
+          //           <ReactStars
+          //             count={5}
+          //             size={18}
+          //             value={5}
+          //             edit={false}
+          //             activeColor="#ffd700"
+          //           />
+          //         </div>
+          //         <p
+          //           className={`pro-description ${
+          //             grid === 12 ? "d-block" : "d-none"
+          //           }`}
+          //         >
+          //           {items.bage.description}
+          //         </p>
+          //         <button className="review-project">
+          //                       <Link to={`/SingleProduct/${items.id}`}>See more <HiOutlineArrowNarrowRight/> </Link>
+          //             </button>
+          //       </div>
+          //     </div>
+        
+          // </div>
+          <div  key={item.id}
+          
+               className={`${
               location.pathname === "/our-work"
-                ? `col-${grid} col-${grid}-grider`
-                : "col-3"
+                ? `col-${grid} col-${grid}-grider col-4`
+                : " col-lg-4 col-md-6 col-12"
             }`}
           >
-          
-              <div className="project-card">
-                <div className="project-img">
-                  <img
-                    className="img-fluid"
-                    src={items.bage.imgUrl} alt={items.bage.title}
-                  />
+          <article className="card">
+                <div className="temporary_image">
+                      <img className='img' src={item.bage.imgUrl} alt={item.bage.title} />
                 </div>
-                <div className="project-info">
-                  <span className="project-name"> project name {/* {items.bage.name} */} </span>
-                  <h4 className="project-title">
-                  {items.bage.title}
-                  </h4>
-                  <div className="project-starts">
-                    <ReactStars
-                      count={5}
-                      size={18}
-                      value={5}
-                      edit={false}
-                      activeColor="#ffd700"
-                    />
-                  </div>
-                  <p
-                    className={`pro-description ${
-                      grid === 12 ? "d-block" : "d-none"
-                    }`}
-                  >
-                    {items.bage.description}
-                  </p>
-                  <button className="review-project">
-                                <Link to={`/SingleProduct/${items.id}`}>See more <HiOutlineArrowNarrowRight/> </Link>
-                      </button>
+                <div className="card_content">
+                    <span className="card_title">{item.bage.title}</span>
+                        <span className="card_subtitle">Thsi is a subtitle of this page. Let us see how it looks on the Web.</span>
+                        <Link className = "link_to" to={`/SingleProduct/${item.id}`}>See more</Link>
+       
                 </div>
-              </div>
-        
-          </div>
+        </article>
+    
+    </div>
         )
     })}
     
-    </React.Fragment>
+    </>
   );
 };
 
